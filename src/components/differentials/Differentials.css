@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+UI:wght@400;700&display=swap');
+
+.diferenciais {
+  padding: 4rem 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.diferenciais h2 {
+  margin-bottom: 2rem;
+  font-family: 'Noto Sans Thai UI', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.lista-diferenciais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.diferencial {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 30rem;
+}
+
+.diferencial-icone {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.diferencial div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.diferencial h3,
+.diferencial p {
+  margin: 0;
+}
+
+/* Adaptação para telas menores */
+@media (max-width: 48rem) {
+  .diferenciais {
+    padding: 3rem 6%;
+  }
+
+  .diferenciais h2 {
+    font-size: 2rem;
+  }
+}
